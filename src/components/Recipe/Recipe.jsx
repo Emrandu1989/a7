@@ -15,10 +15,10 @@ const Recipe = ({recipe,handleCook}) => {
     <div>
         <h2 className="text-lg font-bold">Ingredients: {ingredients.length} </h2>
         <ul className="text-gray-600">
-            <li>1. {ingredients[0]}</li>
-            <li>2. {ingredients[1]}</li>
-            <li>3. {ingredients[2]}</li>
-            <li>4. {ingredients[3]}</li>
+            <li>{ingredients[0]}</li>
+            <li>{ingredients[1]}</li>
+            <li>{ingredients[2]}</li>
+            <li>{ingredients[3]}</li>
         </ul>
     </div>
     <hr />
