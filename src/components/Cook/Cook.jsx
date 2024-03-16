@@ -3,11 +3,11 @@ const Cook = ({ cookings,handlePreparingButton,CurrentlyCooking}) => {
   
 
   return (
-    <div className="border-2 p-2 rounded-lg">
-      <h2 className="text-center font-bold text-base-800 text-2xl">
+    <div className="lg:border-2 p-2 lg:rounded-lg">
+      <h2 className="text-center font-bold lg:text-base-800 text-2xl">
         Want To Cook:{cookings.length}
       </h2>
-      <div className="w-2">
+      <div className="lg:w-2">
         <table className="table" >
           {/* head */}
           <thead>
@@ -54,11 +54,11 @@ const Cook = ({ cookings,handlePreparingButton,CurrentlyCooking}) => {
 
               <div>
                 <hr  className="border-2 mt-2"/>
-              <h2 className="text-center font-bold text-base-800 text-2xl">Currently Cooking:{CurrentlyCooking.length}</h2>
+              <h2 className="text-center font-bold  text-base-800 text-2xl">Currently Cooking:{CurrentlyCooking.length}</h2>
 
 
 
-              <div className="w-2">
+              <div className="lg:w-2">
         <table className="table" >
           {/* head */}
           <thead>

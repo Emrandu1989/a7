@@ -50,7 +50,7 @@ const Recipes = () => {
                 </div>
                 <div className="grid grid-cols-12">
 
-                    <div className="col-span-8 grid grid-cols-2 gap-5 mx-4">
+                    <div className="col-span-12 lg:col-span-8 grid lg:grid-cols-2 gap-5 mx-4">
                           {
                             recipes.map(recipe => <Recipe
                             recipe={recipe}
@@ -59,7 +59,7 @@ const Recipes = () => {
                             ></Recipe>)
                           }
                     </div>
-                    <div className="col-span-4 ">
+                    <div className="lg:col-span-4 col-span-12 ">
                         <Cook
                           cookings={cookings}
                           handlePreparingButton={handlePreparingButton}
