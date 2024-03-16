@@ -38,8 +38,8 @@ const Cook = ({ cookings,handlePreparingButton,CurrentlyCooking}) => {
                   <tr >
                     <th>{idx + 1}.</th>
                     <td >{cook.recipe_name}</td>
-                    <td>{cook.preparing_time}</td>
-                    <td className="">{cook.calories}</td>
+                    <td className="mr-2">{cook.preparing_time} min</td>
+                    <td className="">{cook.calories} cal</td>
                     <div>
                     <button onClick={()=>handlePreparingButton(cook.recipe_id, cook)} className="btn btn-success ">Preparing</button>
                     </div>
@@ -89,8 +89,8 @@ const Cook = ({ cookings,handlePreparingButton,CurrentlyCooking}) => {
                   <tr >
                     <th>{idx + 1}.</th>
                     <td >{cook.recipe_name}</td>
-                    <td>{cook.preparing_time}</td>
-                    <td className="">{cook.calories}</td>
+                    <td >{cook.preparing_time} min </td>
+                    <td >{cook.calories} cal</td>
                     <div>
                     
                     </div>
