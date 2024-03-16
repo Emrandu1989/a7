@@ -25,11 +25,11 @@ const Recipe = ({recipe,handleCook}) => {
     <div className="flex justify-between">
         <div className="flex items-center gap-3 text-gray-700">
         <FaClock />   
-          <h5>{preparing_time}</h5>
+          <h5>{preparing_time} min</h5>
         </div>
         <div className="flex items-center gap-3 text-slate-600">
         <FaFire />
-        <h5>{calories}</h5>
+        <h5>{calories} cal</h5>
         </div>
     </div>
 
