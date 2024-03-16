@@ -1,6 +1,6 @@
 [
   {
-    "recipe_image": "https://example.com/chicken_curry.jpg",
+    "recipe_image": "https://media.istockphoto.com/id/1286704566/photo/image-of-turquoise-blue-cooking-pan-filled-with-butter-chicken-tikka-curry-large-chunks-of.jpg?s=2048x2048&w=is&k=20&c=XN-LhLyIGh91VWouofOgvH8K2rNLo1FSs2jUqyGMzMM=",
     "recipe_id": 1,
     "recipe_name": "Chicken Curry",
     "short_description": "A flavorful and aromatic chicken curry that's perfect for dinner.",
@@ -9,7 +9,7 @@
     "calories": "380 calories"
   },
   {
-    "recipe_image": "https://example.com/spaghetti_bolognese.jpg",
+    "recipe_image": "https://media.istockphoto.com/id/1429067111/photo/spaghetti-bolognese-top-view-close-up-no-people-homemade.jpg?s=2048x2048&w=is&k=20&c=poAuvZcdoUZB9Vc0C6n_aUVivr7nPwz7HOfxS-aX1B4=",
     "recipe_id": 2,
     "recipe_name": "Spaghetti Bolognese",
     "short_description": "Classic Italian pasta dish with a rich and savory meat sauce.",
@@ -18,7 +18,7 @@
     "calories": "450 calories"
   },
   {
-    "recipe_image": "https://example.com/vegetable_stir_fry.jpg",
+    "recipe_image": "https://plus.unsplash.com/premium_photo-1664478238082-3df93e48c491?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "recipe_id": 3,
     "recipe_name": "Vegetable Stir Fry",
     "short_description": "A quick and healthy stir-fry loaded with fresh vegetables and tofu.",
@@ -27,7 +27,7 @@
     "calories": "250 calories"
   },
   {
-    "recipe_image": "https://example.com/salmon_salad.jpg",
+    "recipe_image": "https://media.istockphoto.com/id/1662905114/photo/salmon-tuna-veg-bowl.jpg?s=2048x2048&w=is&k=20&c=Jgv_OHlhJpYez485gPAQSvsVb-gLKbwGe6amwMzvPFk=",
     "recipe_id": 4,
     "recipe_name": "Grilled Salmon Salad",
     "short_description": "Light and refreshing salad featuring grilled salmon fillets.",
@@ -36,7 +36,7 @@
     "calories": "320 calories"
   },
   {
-    "recipe_image": "https://example.com/vegetable_soup.jpg",
+    "recipe_image": "https://media.istockphoto.com/id/1750527370/photo/chicken-and-barley-vegetable-noodle-soup.jpg?s=2048x2048&w=is&k=20&c=VeYYZ2Nb3J1uVwot3-GNFGPlIdq12n3ysr7BDrziYs0=",
     "recipe_id": 5,
     "recipe_name": "Vegetable Soup",
     "short_description": "Comforting and nourishing soup packed with a variety of vegetables.",
@@ -45,7 +45,7 @@
     "calories": "180 calories"
   },
   {
-    "recipe_image": "https://example.com/banana_smoothie.jpg",
+    "recipe_image": "https://images.unsplash.com/photo-1467453678174-768ec283a940?q=80&w=2044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "recipe_id": 6,
     "recipe_name": "Banana Smoothie",
     "short_description": "Creamy and delicious smoothie made with ripe bananas and yogurt.",
