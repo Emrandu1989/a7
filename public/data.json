@@ -5,8 +5,8 @@
     "recipe_name": "Chicken Curry",
     "short_description": "A flavorful and aromatic chicken curry that's perfect for dinner.",
     "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushroom"],
-    "preparing_time": "45 min",
-    "calories": "380 calories"
+    "preparing_time": 45,
+    "calories": 380
   },
   {
     "recipe_image": "https://media.istockphoto.com/id/1429067111/photo/spaghetti-bolognese-top-view-close-up-no-people-homemade.jpg?s=2048x2048&w=is&k=20&c=poAuvZcdoUZB9Vc0C6n_aUVivr7nPwz7HOfxS-aX1B4=",
@@ -14,8 +14,8 @@
     "recipe_name": "Spaghetti Bolognese",
     "short_description": "Classic Italian pasta dish with a rich and savory meat sauce.",
     "ingredients": ["400 g spaghetti", "300 g ground beef", "200 g tomato sauce", "100 g Parmesan cheese"],
-    "preparing_time": "35 min",
-    "calories": "450 calories"
+    "preparing_time": 35,
+    "calories": 450
   },
   {
     "recipe_image": "https://plus.unsplash.com/premium_photo-1664478238082-3df93e48c491?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -23,8 +23,8 @@
     "recipe_name": "Vegetable Stir Fry",
     "short_description": "A quick and healthy stir-fry loaded with fresh vegetables and tofu.",
     "ingredients": ["300 g tofu", "150 g broccoli", "200 g bell peppers", "100 g carrots"],
-    "preparing_time": "25 min",
-    "calories": "250 calories"
+    "preparing_time": 25,
+    "calories": 250
   },
   {
     "recipe_image": "https://media.istockphoto.com/id/1662905114/photo/salmon-tuna-veg-bowl.jpg?s=2048x2048&w=is&k=20&c=Jgv_OHlhJpYez485gPAQSvsVb-gLKbwGe6amwMzvPFk=",
@@ -32,8 +32,8 @@
     "recipe_name": "Grilled Salmon Salad",
     "short_description": "Light and refreshing salad featuring grilled salmon fillets.",
     "ingredients": ["400 g salmon fillets", "150 g mixed greens", "100 g cherry tomatoes", "50 g feta cheese"],
-    "preparing_time": "20 min",
-    "calories": "320 calories"
+    "preparing_time": 20,
+    "calories": 320
   },
   {
     "recipe_image": "https://media.istockphoto.com/id/1750527370/photo/chicken-and-barley-vegetable-noodle-soup.jpg?s=2048x2048&w=is&k=20&c=VeYYZ2Nb3J1uVwot3-GNFGPlIdq12n3ysr7BDrziYs0=",
@@ -41,8 +41,8 @@
     "recipe_name": "Vegetable Soup",
     "short_description": "Comforting and nourishing soup packed with a variety of vegetables.",
     "ingredients": ["500 g mixed vegetables", "1 liter vegetable broth", "100 g pasta", "50 g spinach"],
-    "preparing_time": "40 min",
-    "calories": "180 calories"
+    "preparing_time": 40,
+    "calories": 180
   },
   {
     "recipe_image": "https://images.unsplash.com/photo-1467453678174-768ec283a940?q=80&w=2044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -50,7 +50,7 @@
     "recipe_name": "Banana Smoothie",
     "short_description": "Creamy and delicious smoothie made with ripe bananas and yogurt.",
     "ingredients": ["2 ripe bananas", "250 ml yogurt", "50 g honey", "100 ml milk"],
-    "preparing_time": "10 min",
-    "calories": "200 calories"
+    "preparing_time": 10,
+    "calories": 200
   }
 ]

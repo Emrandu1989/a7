@@ -1,6 +1,9 @@
 
 const Cook = ({ cookings,handlePreparingButton,CurrentlyCooking}) => {
   
+    const totalTime = CurrentlyCooking.reduce((p, c) => p + c.preparing_time, 0);
+    const totalCalories = CurrentlyCooking.reduce((p, c) => p + c.calories, 0);
+    console.log(totalTime);
 
   return (
     <div className="lg:border-2 p-2 lg:rounded-lg">
@@ -98,6 +101,9 @@ const Cook = ({ cookings,handlePreparingButton,CurrentlyCooking}) => {
             </div>
           </div>
         ))}
+          <div className="flex justify-between px-6 mt-12">
+            <h3 className="font-bold">Total Time: {totalTime} </h3>
+          <h3 className="font-bold">Total Calories: {totalCalories}</h3></div>
       </div>
 
 
