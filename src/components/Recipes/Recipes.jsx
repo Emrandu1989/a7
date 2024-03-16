@@ -9,6 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 const Recipes = () => {
     const [recipes, setRecipes] = useState([]);
     const [cookings, setCookings] = useState([]);
+    const [CurrentlyCooking, setCurrentlyCooking] = useState([])
    
     useEffect(()=>{
            fetch('./data.json')
@@ -30,6 +31,17 @@ const Recipes = () => {
         }
        
     }
+
+    const handlePreparingButton = (id, cook) =>{
+        console.log(id, cook)
+         const remaining = cookings.filter(c=>c.recipe_id !== id);
+         setCookings(remaining);
+         const currentlyCookingItem = cookings.find(c=>c.recipe_id === cook.recipe_id)
+         setCurrentlyCooking([...CurrentlyCooking, currentlyCookingItem])
+
+
+
+    }
     return (
         <div className="my-9">
                 <div className="text-center ">
@@ -50,6 +62,8 @@ const Recipes = () => {
                     <div className="col-span-4 ">
                         <Cook
                           cookings={cookings}
+                          handlePreparingButton={handlePreparingButton}
+                          CurrentlyCooking={CurrentlyCooking}
                           ></Cook>
                         
                          
