@@ -1,11 +1,11 @@
 import { FaClock,FaFire } from "react-icons/fa";
 
-const Recipe = ({recipe}) => {
-    console.log(recipe)
+const Recipe = ({recipe,handleCook}) => {
+    // console.log(recipe)
     const {calories,ingredients, preparing_time,recipe_id,recipe_image,recipe_name,short_description } = recipe;
     
     return ( 
-        <div className="border-2 rounded-full">
+        <div>
              <div className="card  bg-base-100 shadow-xl">
   <figure><img className="w-full" src={recipe_image} alt="Shoes" /></figure>
   <div className="card-body">
@@ -34,7 +34,7 @@ const Recipe = ({recipe}) => {
     </div>
 
     <div className="card-actions mt-5">
-      <button className="btn btn-outline">Want to Cook</button>
+      <button onClick={()=>handleCook(recipe)} className="btn btn-outline">Want to Cook</button>
     </div>
   </div>
 </div>
